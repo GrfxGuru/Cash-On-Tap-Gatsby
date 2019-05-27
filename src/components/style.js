@@ -65,7 +65,7 @@ export default createGlobalStyle`
     position: unset !important;
     height: 0 !important;
     display: block !important;
-    
+
   }
   .headerImage > div{
     padding-bottom: 0 !important;
@@ -532,4 +532,27 @@ export default createGlobalStyle`
   .hidden {
     display: none;
   }
+
+.privacyPolicyLink {
+    font-size: 16px;
+    position: relative;
+    top: 180px;
+  }
+
+.privacyPolicyContainer {
+    color: white;
+    width: 900px;
+    margin: auto;
+    padding-top: 50px;
+}
+
+.privacyPolicyContainer p {
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.privacyPolicyContainer h2 {
+  padding-top: 20px;
+  padding-bottom: 10px;
+}
 `

@@ -1,101 +1,84 @@
 module.exports = {
   // App Info
-  appstore_link         : "https://imedadel.me",                                  // Enter App Store URL.
-  playstore_link        : "https://imedadel.me",                                  // Enter Google Play Store URL.
-  google_analytics_ID   : "UA-47311644-5",                                        // Enter Google Analytics ID or ""
-  presskit_download_link: "https://imedadel.me",                                  // Enter a link to downloadable file or (e.g. public Dropbox link to a .zip file). 
-  video_or_screenshot   : "screenshot",                                           // "screenshot" or "video"
-  app_url               : "https://agalp.imedadel.me",                            // Domain of your website without path_prefix.
+  appstore_link         : null,                                  // Enter App Store URL.
+  playstore_link        : "https://pw.d.pr/Jq6gSV",                                  // Enter Google Play Store URL.
+  google_analytics_ID   : "",                                        // Enter Google Analytics ID or ""
+  presskit_download_link: null,                                  // Enter a link to downloadable file or (e.g. public Dropbox link to a .zip file).
+  video_or_screenshot   : "screenshot",                                               // "screenshot" or "video"
+  app_url               : "https://cashontapgame.com",                            // Domain of your website without path_prefix.
   path_prefix           : "/",                                                    // Prefixes all links. For cases when deployed to example.github.io/automatic-gatsbyjs-app-landing-page/.
-  app_name              : "AGALP",
+  app_name              : "Cash On Tap Mobile Game",
   app_price             : "Free",
-  app_description       : "Automatically generate GatsbyJS app landing pages.",
-  app_keywords          : ["automatic", "gatsbyjs", "app", "landing page"],
+  app_description       : "The idle game where having the most is always better.",
+  app_keywords          : ["mobile", "android", "app", "ios","mobile game", "game"],
 
   // Personal Info
-  your_name              : "Imed Adel",
+  your_name              : "UI Buzz",
   your_link              : "https://imedadel.me",
-  your_city              : "Sousse",
-  email_address          : "hello@imedadel.me",
+  your_city              : null,
+  email_address          : "uibuzzcom@gmail.com",
   facebook_username      : null,
-  instagram_username     : "ed_adel",
-  twitter_username       : "Imed_Adel",
-  github_username        : "ImedAdel",
+  instagram_username     : null,
+  twitter_username       : "CashOnTapGame",
+  github_username        : null,
   youtube_username       : null,
 
   // Features List
   features               : [
     {
-      title: "GitHub Pages GatsbyJS Starter",
+      title: "The Goal",
       description:
-        "Designed for GitHub Pages and Netlify. Fork. Edit site-config.js. Upload screenshot/video. Push to gh-pages branch. Voilà!",
+        "Cash On Tap is a free Android game. The idea is simple, have more money than everyone else. Because more is always better right?",
       fontawesome_icon_name: "magic",
     },
     {
-      title: "iPhone Device Preview",
+      title: "Play Without Playing",
       description:
-        "Preview your app in the context of an iPhone device. Five different device colors included.",
-      fontawesome_icon_name: "mobile",
+        "You will earn money even if you do nothing, that’s the beauty of Cash On Tap. It works very much in the tradition of ‘idle games,’ which means even when you are not playing, it is still counting up that money on your behalf.",
+      fontawesome_icon_name: "magic",
     },
     {
-      title: "Video Support",
+      title: "Decide How You Want To Play",
       description:
-        "Preview app video on the iPhone device simply by placing your video files in the videos folder.",
-      fontawesome_icon_name: "play-circle",
+        "When you feel like boosting that cash, there are options you can buy using the money you earned to increase that pile of cash.",
+      fontawesome_icon_name: "magic",
     },
     {
-      title: "Optimized Performance",
+      title: "Remember To Bank That Cash",
       description:
-        "No need to worry about page performance or optimizing images and videos. Everything is already configured for the best performance possible!",
-      fontawesome_icon_name: "sync",
+        "When you reach $1t, it will stop earning you money until you bank that cash, and then it starts again.",
+      fontawesome_icon_name: "magic",
     },
     {
-      title: "Easy to Tweak",
+      title: "Show Off Your Fortune To Friends",
       description:
-        "Tweak accent color, images, icons and transparency via the site-config.js file. No HTML/CSS needed.",
-      fontawesome_icon_name: "adjust",
+        "Want to boast to your friends? Great! There is a share button built right into the game. Compete against each other and everyone else to have the most.",
+      fontawesome_icon_name: "magic",
     },
     {
-      title: "Feature List",
+      title: "There Is A Road Map",
       description:
-        "Add features (like this one) to your site via the site-config.js file. No HTML/CSS needed.",
-      fontawesome_icon_name: "star",
-    },
-    {
-      title: "Deploy to Netlify",
-      description: "Easily deploy your GatsbyJS landing page to Netlify.",
-      fontawesome_icon_name: "arrow-alt-circle-down",
-    },
-    {
-      title: "Social Links",
-      description:
-        "Easily add social media accounts and contact info in the footer via the site-config.js file. No HTML/CSS needed.",
-      fontawesome_icon_name: "link",
-    },
-    {
-      title: "FontAwesome Support",
-      description:
-        "Pick custom Font Awesome icons for the feature list via the site-config.js file. No HTML/CSS needed.",
-      fontawesome_icon_name: "info-circle",
+        "The plan for Cash On Tap is an ever evolving game based on player response and play style.",
+      fontawesome_icon_name: "magic",
     },
   ],
-  header_background             : "rgba(0, 0, 0, 0.1)",
+  header_background             : "rgba(0, 80, 0, 1.0)",
   topbar_title_color            : "#ffffff",
-  cover_overlay_color_rgba      : "rgba(54, 59, 61, 0.8)",
+  cover_overlay_color_rgba      : "rgba(20, 59, 20, 0.8)",
   device_color                  : "black",                          // Set to "black", "blue", "coral", "white", or "yellow"
-  body_background_color         : "ffffff",
+  body_background_color         : "rgba(0, 40, 0, 1.0)",
   primary_text_color            : "#000",
   content_width                 : "1170px",
   font                          : `"Helvetica Neue", sans-serif`,
-  link_color                    : "#1d63ea",
+  link_color                    : "rgba(0, 255, 0, 1.0)",
   app_title_color               : "#ffffff",
   app_price_color               : "#ffffff",
   app_description_color         : "#ffffff",
-  feature_title_color           : "#000000",
-  feature_text_color            : "#666666",
-  feature_icons_foreground_color: "#1d63ea",
-  feature_icons_background_color: "#e6e6e6",
-  social_icons_foreground_color : "#666666",
-  social_icons_background_color : "#e6e6e6",
-  footer_text_color             : "#666666",
+  feature_title_color           : "rgba(0, 200, 0, 1.0)",
+  feature_text_color            : "#eeeeee",
+  feature_icons_foreground_color: "#eeeeee",
+  feature_icons_background_color: "rgba(0, 100, 0, 0.6)",
+  social_icons_foreground_color : "#ffffff",
+  social_icons_background_color : "rgba(0, 100, 0, 0.6)",
+  footer_text_color             : "#cccccc",
 }

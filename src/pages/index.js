@@ -5,8 +5,6 @@ import Img from "gatsby-image"
 import Layout from "../components/layout"
 import SEO from "../components/seo"
 
-import "@fortawesome/fontawesome-free/css/all.min.css"
-
 import configs from "../../site-config"
 
 const IndexPage = ({ data }) => (
@@ -156,6 +154,7 @@ const IndexPage = ({ data }) => (
                 </a>
               )}
             </div>
+            <div className="privacyPolicyLink"><a href="/privacy-policy">Privacy Policy</a></div>
           </div>
           <div className="features">
             {configs.features.map(feature => {
