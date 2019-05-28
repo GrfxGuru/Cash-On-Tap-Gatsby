@@ -20,7 +20,7 @@ module.exports = {
   facebook_username: null,
   instagram_username: null,
   twitter_username: "CashOnTapGame",
-  github_username: uibuzz,
+  github_username: "uibuzz",
   youtube_username: null,
 
   // Features List
